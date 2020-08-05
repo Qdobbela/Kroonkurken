@@ -1,0 +1,64 @@
+$background-header-footer:  #C1C0C8;
+$background-main: #FCFBFC;
+$background-nav: #8E8E8E;
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+    body{
+        margin: 0px;
+        height: 100%;
+        padding: 0px;
+        max-width: 100%;
+        background-color: $background-main;
+        p{
+            margin: 0px;
+        }
+        header{
+            height: 10%;
+            min-height: 100px;
+            margin: 0px;
+            background-color: $background-header-footer;
+            h1{
+                margin: 0px;
+                padding: 2rem;
+            }
+        }
+        
+        nav{
+            display: inline-block;
+            background-color: $background-nav;
+            width: 20%;
+            max-width: 200px;
+            height: 80%;
+            ul{
+                margin: 0px;
+                padding: 0.5rem;
+                li{
+                    margin: 0px;
+                    padding: 0.5rem;
+                }
+            }
+        }
+        
+        section{
+            display: inline-block;
+            margin: 0px;
+        }
+        
+        footer{
+            margin: 0px;
+            background-color: $background-header-footer;
+            height: 10%;
+            min-height: 100px;
+            p{
+                padding: 2.5rem;
+            }
+        }
+    }
+}
+
+
+
